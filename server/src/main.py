@@ -9,6 +9,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
+
+
 
 app = Flask(__name__)
 
