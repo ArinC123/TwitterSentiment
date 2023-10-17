@@ -4,3 +4,5 @@ streamlit
 nltk
 flask
 scikit-learn
+stop-words
+punkt
