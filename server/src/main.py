@@ -7,6 +7,8 @@ from sklearn.naive_bayes import MultinomialNB
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+import nltk
+nltk.download('stopwords')
 
 app = Flask(__name__)
 
