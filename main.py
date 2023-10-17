@@ -16,7 +16,7 @@ nltk.download('punkt')
 app = Flask(__name__)
 
 # Load and preprocess data
-data = pd.read_csv('static/twitter_training.csv', header=None, names=['ID', 'Product', 'Sentiment', 'Tweet'])
+data = pd.read_csv('twitter_training.csv', header=None, names=['ID', 'Product', 'Sentiment', 'Tweet'])
 stop_words = set(stopwords.words('english'))
 stemmer = PorterStemmer()
 
