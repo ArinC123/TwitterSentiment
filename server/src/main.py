@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request
+
 import pandas as pd
 import re
+from flask import Flask, render_template, request
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from nltk.corpus import stopwords

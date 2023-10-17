@@ -1,0 +1,5 @@
+pandas
+re
+Flask
+scikit-learn
+nltk
