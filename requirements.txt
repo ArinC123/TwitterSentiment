@@ -5,4 +5,5 @@ nltk
 flask
 scikit-learn
 stop-words
-
+pyzmq==17.0.0 
+ipykernel==4.8.2
